@@ -37,6 +37,8 @@ body{
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.1);
     font-size: 8vmin;
+    background-color: antiquewhite;
+    color: chocolate;
 }
 #reset{
     padding: 1rem;
@@ -44,4 +46,21 @@ body{
     color: aliceblue;
     border-radius: .5rem;
     border: none;
+}
+#new-btn{
+    padding: 1rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: .5rem;
+    border: none;
+}
+#msg{
+    color: antiquewhite;
+    font-size: 5vmin;
+}
+.msg-container{
+    height: 30vmin;
+}
+.hide{
+    display: none;
 }
